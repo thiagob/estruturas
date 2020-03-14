@@ -1,6 +1,5 @@
-# Lista de exercícios
+# Lista de exercícios - Lição 2
 
-# Lição 2
 ## 01 - Calculadora
 
 Construa uma calculadora que efetue operações de Soma, Subtração, Multiplicação e Divisão.
