@@ -1,11 +1,11 @@
-def print_with_repace(s, pos):
+def print_replacing(s, pos):
     if pos >= len(s):
         return
         
     a = list(s)
     a[pos] = "*"
     print("".join(a))
-    print_with_repace(s, pos + 1)
+    print_replacing(s, pos + 1)
 
 
-print_with_repace("Thiago Bohn", 0)
+print_replacing("Thiago Bohn", 0)
