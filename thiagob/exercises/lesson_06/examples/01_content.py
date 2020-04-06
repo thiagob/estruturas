@@ -1,6 +1,8 @@
 class Node:
     def __init__(self, name):
+        # conteúdo do nó
         self.name = name
+        # arestas / ligação com os filhos
         self.children = []
 
 
