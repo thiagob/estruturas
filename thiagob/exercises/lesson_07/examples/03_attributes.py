@@ -20,6 +20,6 @@ print(pingo.patas)
 
 rex = Cachorro()
 rex.truques = []
-print("Rex: " + rex.truques)
-print("Toto: " + toto.truques)
+print("Rex: " + ", ".join(rex.truques))
+print("Toto: " + ", ".join(toto.truques))
 
