@@ -19,5 +19,15 @@ class PlateGenerator:
                 plate = plate + str(self.random_number())
         return plate
 
-pg = PlateGenerator()
-print(pg.new_plate())
+# pg = PlateGenerator()
+# print(pg.new_plate())
+
+class Veiculo:
+
+    placa = PlateGenerator().new_plate()
+
+    def __init__(self):
+        self.placa = PlateGenerator().new_plate()
+
+v = Veiculo()
+print(v.placa)
