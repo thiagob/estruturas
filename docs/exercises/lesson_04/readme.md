@@ -1,6 +1,6 @@
 # Lista de exercícios - Lição 4
 
-## 01 - Fibonacci iterativo e recursivo
+## :star2:	01 - Fibonacci iterativo e recursivo
 
 Implemente 2 soluções para a sequência de fibonacci no arquivo `math.py` dentro de sua biblioteca:
 
