@@ -41,3 +41,4 @@ class StackTestCase(unittest.TestCase):
         self.assertEqual(stack.pop(), 5)
         self.assertEqual(stack.pop(), 1)
         self.assertEqual(stack.pop(), None)
+
