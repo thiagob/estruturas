@@ -1,6 +1,6 @@
 # Lista de exercícios - Lição 5
 
-## 01 - Gerar uma lista de inteiros
+## :star2:	01 - Gerar uma lista de inteiros
 
 No arquivo `generators.py` implemente o método `generate_list_of_ints` de forma que ele returno uma lista de números inteiros randômicos.
 
