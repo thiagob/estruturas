@@ -21,3 +21,17 @@ class QueueTestCase(unittest.TestCase):
         self.assertEqual(q.dequeue(), "Terceiro")
         self.assertEqual(q.dequeue(), "Quarto")
         assert q.is_empty()
+
+    def test_with_integers(self):
+        q = lib.Queue()
+        q.enqueue(1)
+        q.enqueue(2)
+        q.enqueue(3)
+
+        self.assertEqual(q.dequeue(), 1)
+        
+        q.enqueue(4)
+        self.assertEqual(q.dequeue(), 2)
+        self.assertEqual(q.dequeue(), 3)
+        self.assertEqual(q.dequeue(), 4)
+        assert q.is_empty()
