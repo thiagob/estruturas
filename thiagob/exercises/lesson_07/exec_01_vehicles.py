@@ -29,5 +29,21 @@ class Veiculo:
     def __init__(self):
         self.placa = PlateGenerator().new_plate()
 
+class Pickup(Veiculo):
+
+    def __init__(self, capacidade_carga):
+        self.capacidade_carga = capacidade_carga
+
+    def carregar(self, carga):
+        if carga > self.capacidade_carga:
+            print("Erro: capacidade de carga excedida")
+            return False
+        else:
+            return True
+
 v = Veiculo()
 print(v.placa)
+
+p = Pickup(1000)
+print(p.placa)
+p.carregar(2000)
