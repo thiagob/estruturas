@@ -1,6 +1,6 @@
 # Lista de exercícios - Lição 8
 
-## 01 - Implementação de Pilha
+## :star2: 01 - Implementação de Pilha
 
 Implementar uma pilha utilizando as funções mais básicas do array. Evite simplesmente criar um "wrapper" para os métodos existentes do array.
 
