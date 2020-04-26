@@ -13,6 +13,3 @@ class GeneratorsTestCase(unittest.TestCase):
         assert len(lst) == 3
         for i in lst:
             assert i <= 20
-
-if __name__ == '__main__':
-    unittest.main()
