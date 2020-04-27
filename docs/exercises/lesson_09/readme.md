@@ -17,7 +17,7 @@ Implemente a fila controlando as posições iniciais e finais de acordo com o ex
 
 ## 02 - Encontrar o número desejado
 
-Para adentrar em um recinto secredo é necessário conhecer o número desejado. Para identificá-lo você recebeu as segunintes instruções:
+Para adentrar em um recinto secreto é necessário conhecer o número desejado. Para identificá-lo você recebeu as segunintes instruções:
 
 1. Adicione os números de 1 a 10 em uma pilha
 1. Depois remove os 3 primeiros números
