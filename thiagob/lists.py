@@ -8,8 +8,8 @@ class BaseList:
     def print(self, element=None):
         if self.debug:
             if element:
-                print(element)
-            print("[%s]" % ", ".join(self.elements))
+                print(str(element))
+            print("[%s]" % ", ".join(map(str, self.elements)))
 
     # retorna o tamanho da pilha
     def length(self):
