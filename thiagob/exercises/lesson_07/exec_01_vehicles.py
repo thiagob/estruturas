@@ -19,12 +19,7 @@ class PlateGenerator:
                 plate = plate + str(self.random_number())
         return plate
 
-# pg = PlateGenerator()
-# print(pg.new_plate())
-
 class Veiculo:
-
-    placa = PlateGenerator().new_plate()
 
     def __init__(self):
         self.placa = PlateGenerator().new_plate()
@@ -32,6 +27,7 @@ class Veiculo:
 class Pickup(Veiculo):
 
     def __init__(self, capacidade_carga):
+        super().__init__()
         self.capacidade_carga = capacidade_carga
 
     def carregar(self, carga):
