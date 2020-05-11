@@ -1,6 +1,6 @@
 # Lista de exercícios - Lição 11
 
-## :star2: 01 - Ordenação e Busca binária
+## 01 - Ordenação e Busca binária
 
 1. Utilizando sua função implementada na lição 5 gera uma lista de 5000 inteiros.
 1. Ordene a lista utilizando:
