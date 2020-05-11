@@ -8,8 +8,8 @@
     1. Quick sort
     1. Merge Sort
 1. Compare os resultados da ordenação em termos de resultado obito de tempo de execução
-1. Efetue a busca binário de:
+1. Efetue a busca binária de:
     1. Números que existe na lista
     1. Números que não existem na lista
     1. Números maiores que o número máximo contido na lista 
-1. Compare os resultados da ordenação em termos de resultado obito de tempo de execução
+1. Avalie os resultados obtidos
