@@ -12,7 +12,7 @@ class LinkedList:
         # head, or could be even node
         self.first = None
         self.last = None
-
+        
 
     def append(self, value):
         new_node = Node(value)
@@ -109,35 +109,35 @@ class LinkedList:
                 if not swapped:
                     break
 
-        def find(self, value):
-            pass
+    def find(self, value):
+        pass
     
-        def length(self):
-            pass
+    def length(self):
+        pass
 
-str_list = LinkedList()
-str_list.append("Azul")
-str_list.append("Preto")
-str_list.append("Rosa")
-str_list.print()
+# str_list = LinkedList()
+# str_list.append("Azul")
+# str_list.append("Preto")
+# str_list.append("Rosa")
+# str_list.print()
 
-print('====')
+# print('====')
 
-str_list.insert(0, "Branco")
-str_list.print()
+# str_list.insert(0, "Branco")
+# str_list.print()
 
-print('====')
+# print('====')
 
-str_list.insert(1, "Vermelho")
-str_list.print()
+# str_list.insert(1, "Vermelho")
+# str_list.print()
 
 
-print('====')
+# print('====')
 
-str_list.delete(1)
-str_list.print()
+# str_list.delete(1)
+# str_list.print()
 
-print('====')
+# print('====')
 
 int_list = LinkedList()
 int_list.append(5)
