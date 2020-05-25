@@ -15,7 +15,7 @@ for i in range(1, 6):
     pilha.push(i)
 
 # remover 8 números
-for i in range(8):
+for i in range(7):
     pilha.pop()
 
 # retirar elemento desejado
