@@ -2,7 +2,7 @@
 
 ## 01 - Ordenação e Busca binária
 
-1. Utilizando sua função implementada na lição 5 gera uma lista de 5000 inteiros.
+1. Utilizando sua função implementada na lição 5 gera uma lista de 1000 inteiros.
 1. Ordene a lista utilizando:
     1. Bubble sort
     1. Quick sort
