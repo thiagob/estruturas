@@ -19,10 +19,10 @@ class Node:
     def is_internal_node(self):
         return len(self.childs) > 0    
 
-    def get_total_salves(self):
+    def get_total_sales(self):
         total = 0
         for child in self.childs:
-            total = total + child.get_total_salves()
+            total = total + child.get_total_sales()
 
         if "sales" in self.data:
             return self.data["sales"] + total
@@ -40,7 +40,7 @@ class Node:
         if self.is_internal_node():
             attributes.append("Internal")
 
-        print(".." * self.level + self.data["name"] + " Sales: " + '{:6,.2f}'.format(self.get_total_salves()) + ")")
+        print(".." * self.level + self.data["name"] + " Sales: " + '{:6,.2f}'.format(self.get_total_sales()) + ")")
         
         for child in self.childs:
             child.print_tree()
