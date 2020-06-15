@@ -5,16 +5,16 @@ class Node:
         self.right = None
 
 
-# Pré-Orderm Esquerda, Raiz, Direita
-def preorder(node):
+# Em Orderm Esquerda, Raiz, Direita
+def inorder(node):
     if node.left:
         preorder(node.left)
     print(node.value)
     if node.right:
         preorder(node.right)
 
-# Em Ordem (Raiz, Esquerda, Direita)
-def inorder(node):
+# Pré-Ordem (Raiz, Esquerda, Direita)
+def preorder(node):
     print(node.value)
     if node.left:
         inorder(node.left)
