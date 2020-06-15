@@ -6,7 +6,9 @@ Construa em papel, word, código ASCII, ... uma árvore binária de busca conten
 
 Não é necessário codificar neste exercício, apenas praticar os conceitos.
 
-Abaixo o exemplo da árvore com meu nome
+Abaixo o exemplo da árvore com meu nome:
+
+![BST of Thiago](https://github.com/thiagob/estruturas/blob/master/docs/exercises/lesson_16/Capture.PNG?raw=true)
 
 ## 02 - ABB de números randômicos + BFS
 
